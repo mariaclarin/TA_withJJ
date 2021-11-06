@@ -11,4 +11,4 @@ dict_order = {key: languages[key] for key in lang_order} #declaring the list con
 for key in dict_order:
     print(key) #prints the key only withput the value
     print(dict_order[key]) #prints the values inside he responding key
-    print()
+    print() #prints an extra space after the last key's values are printed
