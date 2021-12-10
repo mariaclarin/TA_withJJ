@@ -36,6 +36,6 @@ class Cylinder(Circle):
     def toString(self) -> str:
         return "The height is : " + {self.getHeight()}
     
-    def getVolume(self):
+    def getVolume(self)-> float:
         volume = (3.14)*((self.getRadius())**2)* self.getHeight()
         return volume
